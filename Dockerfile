@@ -1,4 +1,4 @@
-FROM kscape/docker-oracle-java:1.8
+FROM kscape/docker-oracle-java:latest
 
 ENV SBT_VERSION 0.13.13
 
