@@ -9,5 +9,6 @@ RUN \
   rm sbt-$SBT_VERSION.deb
 
 COPY home/sbt/0.13/plugins/plugins.sbt /root/.sbt/0.13/plugins/plugins.sbt
+COPY home/sbt/0.13/global.sbt /root/.sbt/0.13/global.sbt
 
 RUN sbt update
